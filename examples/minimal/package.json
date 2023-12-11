@@ -1,0 +1,14 @@
+{
+    "name": "@jonjitsu/minimal-example",
+    "main": "index.ts",
+    "scripts": {
+        "build": "tsc --build"
+    },
+    "devDependencies": {
+        "@types/node": "^18"
+    },
+    "dependencies": {
+        "@jonjitsu/fabric": "^1.0.0",
+        "@pulumi/pulumi": "^3.0.0"
+    }
+}
