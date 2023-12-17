@@ -33,11 +33,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jonjitsu/example-project@workspace:examples/project"
   dependencies:
+    "@jonjitsu/fabric": "npm:^1.0.0"
     "@pulumi/pulumi": "npm:^3.0.0"
   languageName: unknown
   linkType: soft
 
-"@jonjitsu/fabric@workspace:packages/fabric":
+"@jonjitsu/fabric@npm:^1.0.0, @jonjitsu/fabric@workspace:packages/fabric":
   version: 0.0.0-use.local
   resolution: "@jonjitsu/fabric@workspace:packages/fabric"
   dependencies:
