@@ -1,17 +1,21 @@
 {
   "compilerOptions": {
     "incremental": true,
-    "target": "es2022",
+    "target": "es2020",
     "module": "commonjs",
     "moduleResolution": "node",
     "declaration": true,
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "composite": true,
+    "paths": {
+      "@jonjitsu/fabric/*": ["./packages/fabric/src/*"]
+    }
   },
-  "files": [
-  ],
+  "files": [],
   "references": [
     {
       "path": "./packages/fabric"
